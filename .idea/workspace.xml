@@ -13,8 +13,10 @@
     <session id="-1591303108">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -30,12 +32,12 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assigment0/rau-exercise-A0/src/at/jku/cp/ai/tests/TestBoard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+            <state relative-caret-position="204">
+              <caret line="184" column="18" selection-start-line="184" selection-start-column="18" selection-end-line="184" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -43,8 +45,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assigment0/rau-exercise-A0/src/at/jku/cp/ai/tests/assignment0/TestRandomSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+            <state relative-caret-position="408">
+              <caret line="50" column="49" lean-forward="true" selection-start-line="50" selection-start-column="49" selection-end-line="50" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -66,44 +68,91 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="AI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AI" type="462c0819:PsiDirectoryNode" />
+              <item name="assigment0" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AI" type="462c0819:PsiDirectoryNode" />
+              <item name="assigment0" type="462c0819:PsiDirectoryNode" />
               <item name="rau-exercise-A0" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AI" type="462c0819:PsiDirectoryNode" />
+              <item name="assigment0" type="462c0819:PsiDirectoryNode" />
               <item name="rau-exercise-A0" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AI" type="462c0819:PsiDirectoryNode" />
+              <item name="assigment0" type="462c0819:PsiDirectoryNode" />
               <item name="rau-exercise-A0" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="at" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AI" type="462c0819:PsiDirectoryNode" />
+              <item name="assigment0" type="462c0819:PsiDirectoryNode" />
+              <item name="rau-exercise-A0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="at" type="462c0819:PsiDirectoryNode" />
+              <item name="jku" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AI" type="462c0819:PsiDirectoryNode" />
+              <item name="assigment0" type="462c0819:PsiDirectoryNode" />
+              <item name="rau-exercise-A0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="at" type="462c0819:PsiDirectoryNode" />
+              <item name="jku" type="462c0819:PsiDirectoryNode" />
+              <item name="cp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AI" type="462c0819:PsiDirectoryNode" />
+              <item name="assigment0" type="462c0819:PsiDirectoryNode" />
+              <item name="rau-exercise-A0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="at" type="462c0819:PsiDirectoryNode" />
+              <item name="jku" type="462c0819:PsiDirectoryNode" />
+              <item name="cp" type="462c0819:PsiDirectoryNode" />
               <item name="ai" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AI" type="462c0819:PsiDirectoryNode" />
+              <item name="assigment0" type="462c0819:PsiDirectoryNode" />
               <item name="rau-exercise-A0" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ai" type="462c0819:PsiDirectoryNode" />
-              <item name="rau" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rau-exercise-A0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="at" type="462c0819:PsiDirectoryNode" />
+              <item name="jku" type="462c0819:PsiDirectoryNode" />
+              <item name="cp" type="462c0819:PsiDirectoryNode" />
               <item name="ai" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AI" type="462c0819:PsiDirectoryNode" />
+              <item name="assigment0" type="462c0819:PsiDirectoryNode" />
               <item name="rau-exercise-A0" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="at" type="462c0819:PsiDirectoryNode" />
+              <item name="jku" type="462c0819:PsiDirectoryNode" />
+              <item name="cp" type="462c0819:PsiDirectoryNode" />
               <item name="ai" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
               <item name="assignment0" type="462c0819:PsiDirectoryNode" />
@@ -112,10 +161,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539943645791" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539943991592" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -167,18 +217,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="260" y="20" width="1400" height="1000" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18017058" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -186,14 +233,18 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.329718" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="10" visible="true" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -202,15 +253,15 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/assigment0/rau-exercise-A0/src/at/jku/cp/ai/tests/TestBoard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+        <state relative-caret-position="204">
+          <caret line="184" column="18" selection-start-line="184" selection-start-column="18" selection-end-line="184" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assigment0/rau-exercise-A0/src/at/jku/cp/ai/tests/assignment0/TestRandomSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        <state relative-caret-position="408">
+          <caret line="50" column="49" lean-forward="true" selection-start-line="50" selection-start-column="49" selection-end-line="50" selection-end-column="49" />
         </state>
       </provider>
     </entry>
