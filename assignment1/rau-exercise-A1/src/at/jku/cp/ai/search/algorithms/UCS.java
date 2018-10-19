@@ -5,6 +5,7 @@ import java.util.function.Predicate;
 
 import at.jku.cp.ai.search.Node;
 import at.jku.cp.ai.search.Search;
+import at.jku.cp.ai.search.datastructures.StablePriorityQueue;
 
 // Uniform Cost Search
 public class UCS implements Search
@@ -19,7 +20,10 @@ public class UCS implements Search
 	@Override
 	public Node search(Node start, Predicate<Node> endPredicate)
 	{
-		// TODO, assignment1
+		if (endPredicate.test(start)) return start;
+
+		StablePriorityQueue<> pq = new StablePriorityQueue();
+
 		return null;
 	}
 }
