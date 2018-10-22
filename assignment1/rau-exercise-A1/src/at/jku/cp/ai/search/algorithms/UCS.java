@@ -20,9 +20,16 @@ public class UCS implements Search
 	@Override
 	public Node search(Node start, Predicate<Node> endPredicate)
 	{
-		if (endPredicate.test(start)) return start;
 
-		StablePriorityQueue<> pq = new StablePriorityQueue();
+		if(endPredicate.test((start))) return start;
+
+		// insert in fringe
+
+		// loop
+
+		// check frist node in fringe
+
+		// goal test
 
 		return null;
 	}
