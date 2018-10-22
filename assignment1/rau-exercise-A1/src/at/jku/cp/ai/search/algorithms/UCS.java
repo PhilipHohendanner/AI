@@ -1,11 +1,12 @@
 package at.jku.cp.ai.search.algorithms;
 
+import java.util.ArrayList;
 import java.util.function.Function;
 import java.util.function.Predicate;
 
 import at.jku.cp.ai.search.Node;
 import at.jku.cp.ai.search.Search;
-import at.jku.cp.ai.search.datastructures.StablePriorityQueue;
+import at.jku.cp.ai.search.datastructures.*;
 
 // Uniform Cost Search
 public class UCS implements Search
@@ -23,14 +24,22 @@ public class UCS implements Search
 
 		if(endPredicate.test((start))) return start;
 
-		// insert in fringe
+		// create variables
+		StablePriorityQueue fringe = new StablePriorityQueue<>(50);
+		ArrayList<Node> memory = new ArrayList<>();
 
+		// insert in fringe and memory
+		fringe.addAll(start.adjacent());
+		//memory.add(start);
 		// loop
+		while(!fringe.isEmpty()) {
+			Pair p = fringe.peek();
 
-		// check frist node in fringe
-
-		// goal test
-
+			// goal test
+			if(p.equals(endPredicate)) {
+				return null;
+			}
+		}
 		return null;
 	}
 }
