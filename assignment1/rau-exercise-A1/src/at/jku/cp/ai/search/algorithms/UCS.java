@@ -1,6 +1,5 @@
 package at.jku.cp.ai.search.algorithms;
 
-import java.util.ArrayList;
 import java.util.function.Function;
 import java.util.function.Predicate;
 
@@ -21,25 +20,33 @@ public class UCS implements Search
 	@Override
 	public Node search(Node start, Predicate<Node> endPredicate)
 	{
+		// create stack for visited nodes and fringe for queue
+		StablePriorityQueue<Double, Node> fringe = new StablePriorityQueue<>();
+		StackWithFastContains<Node> alreadyVisited = new StackWithFastContains<>();
+		// create pair<f,s> for queue from start node + add to fringe and alreadyVisited
+		Pair<Double,Node> pair = new Pair<>(cost.apply(start),start);
+		fringe.add(pair);
+		alreadyVisited.push(start);
+		while (!fringe.isEmpty()) {
+			pair = fringe.poll();
 
-		if(endPredicate.test((start))) return start;
-
-		// create variables
-		StablePriorityQueue fringe = new StablePriorityQueue<>(50);
-		ArrayList<Node> memory = new ArrayList<>();
-
-		// insert in fringe and memory
-		fringe.addAll(start.adjacent());
-		//memory.add(start);
-		// loop
-		while(!fringe.isEmpty()) {
-			Pair p = fringe.peek();
-
-			// goal test
-			if(p.equals(endPredicate)) {
-				return null;
+			// goal check
+			if (endPredicate.test(pair.s)) {
+				//System.out.println("found solution!");
+				return pair.s;
+			}
+			// expand child nodes
+			for(Node node: pair.s.adjacent()) {
+				// if not alreadyVisited -> add to visited and add to fringe
+				if(!alreadyVisited.contains(node)) {
+					alreadyVisited.push(node);
+					// sum up costs in new pair for correct calculation of costs
+					Pair<Double,Node> p = new Pair<>(cost.apply(node)+pair.f,node);
+					fringe.add(p);
+				}
 			}
 		}
+		//System.out.println("failed!");
 		return null;
 	}
 }

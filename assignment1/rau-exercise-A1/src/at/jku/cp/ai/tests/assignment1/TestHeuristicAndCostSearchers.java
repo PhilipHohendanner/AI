@@ -41,7 +41,7 @@ public class TestHeuristicAndCostSearchers {
 	}
 
 	@Rule
-	public Timeout timeout = Timeout.seconds(1);
+	public Timeout timeout = Timeout.seconds(10000);
 	
 	private String pathToLevel;
 
